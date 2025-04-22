@@ -5,8 +5,8 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters
 from telegram.ext import CallbackContext
 
 # دریافت توکن تلگرام و کلید OpenAI از متغیرهای محیطی
-TELEGRAM_TOKEN = os.getenv("7156009984:AAFqU7EIjCE47ZYYETn1VXcrwNCVZQdHZsM")
-OPENAI_API_KEY = os.getenv("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")
+TELEGRAM_TOKEN = "7156009984:AAFqU7EIjCE47ZYYETn1VXcrwNCVZQdHZsM"
+OPENAI_API_KEY = "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"
 
 # تنظیمات برای OpenAI API
 openai.api_key = OPENAI_API_KEY
